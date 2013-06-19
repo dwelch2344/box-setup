@@ -9,6 +9,9 @@ brew install git
 git config --global --add color.ui true
 
 
+# add CLI tools
+brew install ack
+
 
 
 # Install Slate
