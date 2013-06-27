@@ -18,3 +18,8 @@ brew install ack
 cd /Applications && curl http://www.ninjamonkeysoftware.com/slate/versions/slate-latest.tar.gz | tar -xz
 # TODO - download slate from home GitHub to ~/.slate
 # TODO - launch slate
+
+
+# Make Sublime available from CLI
+# TODO install Sublime first 
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/sublime
